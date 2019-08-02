@@ -40,7 +40,7 @@ class Song
 
   def self.artist_count
     @@artist_count.each do |artist|
-
+      if @@artist_count.none? {|a, c| a == artist}
     end
   end
 
