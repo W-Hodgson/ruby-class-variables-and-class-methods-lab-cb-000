@@ -29,7 +29,9 @@ class Song
 
   def genre_count
     @@genres.each do |genre|
-      
+      if @@genre_count.none? {|g, c| g == genre}
+
+      end
     end
   end
 end
