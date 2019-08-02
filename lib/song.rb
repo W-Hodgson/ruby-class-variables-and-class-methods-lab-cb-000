@@ -42,6 +42,9 @@ class Song
     @@artist_count.each do |artist|
       if @@artist_count.none? {|a, c| a == artist}
         @@artist_count[artist] = 1
+      else
+        @@artist_count[artist] += 1
+      end
     end
   end
 
