@@ -31,6 +31,8 @@ class Song
     @@genres.each do |genre|
       if @@genre_count.none? {|g, c| g == genre}
 
+      else
+
       end
     end
   end
